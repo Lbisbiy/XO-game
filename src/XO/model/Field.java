@@ -30,7 +30,7 @@ public class Field {
         return field;
     }
 
-    public Figure getFigure(final Point point) throws InvalidCoordinatException, AlreadyOccupiedException{
+    public Figure getFigure(final Point point) throws InvalidCoordinatException{
 
         if(!checkPoint(point)){
             throw new InvalidCoordinatException();
