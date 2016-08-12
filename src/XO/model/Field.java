@@ -14,6 +14,10 @@ public class Field {
 
     private final Figure[][] field = new Figure[INT_SIZE][INT_SIZE];
 
+    public Field(){
+
+    }
+
     public int getINT_SIZE() {
         return INT_SIZE;
     }
